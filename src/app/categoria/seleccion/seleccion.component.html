@@ -1,0 +1,7 @@
+<div class="categoria">
+    <h3>Categoria</h3>
+    <div *ngFor="let category of categorias">
+        <input type="checkbox" id="{{category}}" [(ngModel)]="selectedCategorias[category]">
+        <label for="{{category}}">{{category}}</label>
+    </div>
+</div>

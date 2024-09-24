@@ -1,0 +1,26 @@
+.select{
+    width: 350px;
+    height: 60px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #01BD11;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin:20px 0 20px 0;
+    appearance: none;
+    font-size: 25px;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+img{
+    display: flex;
+    position: absolute;
+    left: 280px;
+    top: 40px;
+}

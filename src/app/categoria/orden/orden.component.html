@@ -1,0 +1,9 @@
+
+<div class="ordenar">
+    <div class="container">            
+        <img src="Polygon2.png" alt="">
+        <select class="select" id="ordenarPor" [(ngModel)]="opcionSeleccionada" >
+            <option *ngFor="let option of opciones" [value]="option">{{option}} </option>
+    </select>
+    </div>
+</div>

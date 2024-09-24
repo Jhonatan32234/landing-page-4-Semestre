@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img{
+    width: 251px;
+    height: 244px;
+    border: 2px solid #01BD11;
+    padding: 2px 222px 2px;
+    border-radius: 10px;
+}
+
+.container h2{
+    display: flex;
+    width: 692px;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    border: 2px #01BD11 solid;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    font-size: 25px;
+}
+
+.container p{
+    display: flex;
+    width: 682px;
+    height: 202px;
+    border: 2px solid #01BD11;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 10px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+.price {
+    display: flex;
+    padding-right: 215px;
+    label {
+      display: flex;
+      width: 165px;
+      height: 63px;  
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #01BD11;
+      background-color: #EBEBEB;
+      border-radius: 10px;
+    }
+    
+    button{
+        font-size: 25px;
+        cursor: pointer;
+        width: 320px;
+        height: 63px;
+        border: 2px #01BD11 solid;
+        border-radius: 10px;
+        background-color:#B2ED69;
+        
+    }
+  }
+
+  .container{
+    
+    .poly{
+        display: flex;
+        width: 35px;
+        height: 24px;
+        border: none;
+        position: relative;
+        left: 210px;
+       
+    }
+
+    h4{
+        display: flex;
+        width: 692px;
+        height: 51px;
+        justify-content: center;
+        align-items: center;
+        border: 2px #01BD11 solid; 
+        border-radius: 10px;
+        background-color: #EBEBEB;
+        font-family: Arial;
+        font-size: 20px;
+    }
+  }

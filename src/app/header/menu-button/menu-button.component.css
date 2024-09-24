@@ -1,0 +1,46 @@
+.menu-button{
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 110px;
+    height: 94px;
+    border: 2px #01BD11 solid;
+    border-radius: 10px;
+    
+}
+
+.img-menu{
+    width: 70px;
+    height: 79px;
+}
+
+.menu-auxiliar{
+    display: flex;
+    width: 428px;
+    height: 650px;
+    position: absolute;
+    top: 430px;
+    background-color: #50D377;
+    border: 2px solid #01BD11;
+    box-shadow: 0 4px 8px;
+    font-size: 25px;
+}
+.menu-auxiliar ul{
+    padding-left: 0px;
+}
+.menu-auxiliar p{
+    display: flex;
+    align-items: center;
+    width: 428px;
+    height: 58px;
+    margin-top: 50px;
+    border: 2px solid #01BD11;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}
+
+.menu-auxiliar img{
+    display: flex;
+    position: absolute;
+    left: 320px;
+}
