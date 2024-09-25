@@ -9,11 +9,17 @@ import { SectionHomeComponent } from './section-home/section-home.component';
 import { ProductDataComponent } from './buy-structure/product-data/product-data.component';
 import { BuyStructureModule } from './buy-structure/buy-structure.module';
 import { SectionBuyComponent } from "./section-buy/section-buy.component";
+import { SectionSellComponent } from './section-sell/section-sell.component';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.routes';
+import { SellStructureModule } from "./sell-structure/sell-structure.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    SectionHomeComponent
+    SectionHomeComponent,
+    SectionBuyComponent,   
+    SectionSellComponent,
 
   ],
   imports: [
@@ -22,7 +28,8 @@ import { SectionBuyComponent } from "./section-buy/section-buy.component";
     CategoriaModule,
     CardsModule,
     BuyStructureModule,
-    SectionBuyComponent
+    RouterModule.forRoot(routes),
+    SellStructureModule
 ],
   providers: [],
   bootstrap: [AppComponent]  

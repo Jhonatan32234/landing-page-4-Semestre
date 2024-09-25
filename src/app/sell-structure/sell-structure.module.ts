@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { SellCardComponent } from './sell-card/sell-card.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [SellCardComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
+  ],
+  exports:[
+    SellCardComponent
   ]
 })
 export class SellStructureModule { }
